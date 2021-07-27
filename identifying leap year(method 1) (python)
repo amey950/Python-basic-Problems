@@ -1,0 +1,18 @@
+# here we are asking user to enter which type of year he wants to input(normal year or century year)
+# then according to his input we are finding whether it is leap or not
+
+a=str(input("normal or century: "))
+if a=="normal":
+    b=int(input("enter year"))
+    if b%4==0:
+  
+        print("leap")
+    else:
+        print("non leap")
+
+if a=="century":
+   c=int(input("enter the year: "))
+if c%400==0:
+     print("leap")
+else:
+    print("non leap")
